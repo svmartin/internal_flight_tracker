@@ -1,0 +1,4 @@
+# note to self
+# use model YAML file
+# duplicate it when user creates new flight
+# open, fill in, close YAML file (updating with new info)

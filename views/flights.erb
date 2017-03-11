@@ -1,0 +1,12 @@
+<!-- views/flights.erb -->
+<h1>Flights</h1>
+<ul>
+  <% @flights.each do |flight| %>
+    <% flight.each_pair do |f, _| %>
+      <li>
+        <a href="/<%= f %>"><%= f %></a>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
+<a href="/new_flight">Add flight</a>
