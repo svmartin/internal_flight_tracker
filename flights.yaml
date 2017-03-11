@@ -1,0 +1,6 @@
+---
+:sdf:
+  :airline: airline
+  :flight_number: flight number
+  :destination: destination
+  :departure_time: departure time
